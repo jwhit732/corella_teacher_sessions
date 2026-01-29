@@ -3,6 +3,9 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --managed-green: #22c55e;
+  --managed-green-dark: #16a34a;
+  --managed-green-light: #86efac;
 }
 
 @theme inline {
