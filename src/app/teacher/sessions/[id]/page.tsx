@@ -5,6 +5,8 @@ import { getSessionById } from '@/lib/sessions';
 import { useState } from 'react';
 import Link from 'next/link';
 
+export const dynamic = 'force-dynamic';
+
 export default function SessionDetailPage() {
   const params = useParams();
   const router = useRouter();
